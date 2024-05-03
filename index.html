@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>FingerprintJS Demo</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/favicon.ico?e3f73b3427329bc781d8cc93644405dd"
+    />
+  </head>
+  <body>
+    <section>
+      <h2>Same domain:</h2>
+      <iframe
+        src="frame.html"
+        frameborder="0"
+        width="100%"
+        height="800px"
+      ></iframe>
+    </section>
+
+    <section>
+      <h2>
+        <a href="https://jahonta.github.io/fingerprint-test/" target="_blank"
+          >Cross domain 1 (visited)</a
+        >:
+      </h2>
+      <iframe
+        src="https://jahonta.github.io/fingerprint-test/"
+        frameborder="0"
+        width="100%"
+        height="800px"
+      ></iframe>
+    </section>
+
+    <section>
+      <h2>Cross domain 2 (unvisited):</h2>
+      <iframe
+        src="https://fingerprint-test-t943.onrender.com"
+        frameborder="0"
+        width="100%"
+        height="800px"
+      ></iframe>
+    </section>
+  </body>
+</html>
